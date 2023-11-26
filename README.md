@@ -1,25 +1,32 @@
 <!--## Bidofa
 This repository is for an Auction Marketplace , a project built during the Web3Ladies Cohort IV -->
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Kanit&family=Orbitron&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Kanit:wght@300;400&family=Orbitron&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <title>BIDOFA</title>
 </head>
 <body>
     <main>
         <nav>
-            <a href="#">BIDOFA</a>
+            <h1><a href="#">BIDOFA</a></h1>
 
         <ul class="list">
-                <li>Marketplace</li>
-                <li>Learn</li>
-                <li>FAQS</li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Learn</a></li>
+                <li><a href="">FAQS</a></li>
         </ul>
 
         <div class="btn">
@@ -33,7 +40,7 @@ This repository is for an Auction Marketplace , a project built during the Web3L
             <div class="container">
                  <div class="hero">
  
-                         <h4>Discover, Buy And Sell  DIGITAL Assets</h4>
+                         <h4>Discover, Buy<br> And Sell<br> <span class="digital">DIGITAL</span> Assets</h4>
                          <p>The leading marketplace for digital assets for Africa by Africans ranging from videos, art and photography with seemless means of transaction</p>
  
                          <div class="hero-button">
@@ -46,71 +53,221 @@ This repository is for an Auction Marketplace , a project built during the Web3L
  
  
                  <div class="hero-img">
-                         <img src="assets/hero image.svg" alt="hero image" />
+                         <img src="assets/hero image.svg" alt="hero image"/>
                  </div>
             </div>
           
          </section>
     </main>
 
-    <section>
-        <div>
-            <h3>How it works</h3>
+    <section class="section1">
 
-            <div>
-                <div>
+            <div class="meta">
+                <div class="image">
                     <img src="assets/Metamask.svg">
                     <p>Metatask</p>
                 </div>
-                <div>
+                <div class="image">
                     <img src="assets/Exodus.svg">
                     <p>EXODUS</p>
                 </div>
-                <div>
+                <div class="image">
                     <img src="assets/Trust Wallet.svg">
                     <p>Trust wallet</p>
                 </div>
             </div>
             
 
-            <div>
-                <div>
+            <div class="meta">
+                <div class="image">
                     <img src="assets/visa.svg">
                     <p>VISA Card</p>
                 </div>
-                <div>
+                <div class="image">
                     <img src="assets/ms-card.svg">
                     <p>Master Card</p>
                 </div>
             </div>
-        </div>
+
     </section>
 
-    <section>
+        <section class="div-trend">
+            <div>
+                <h3>Trending</h3>
+            </div>
+
+            <div>
+                <div class="trending">
+                    <div class="img-text">
+                        <img src="assets/trending 1.svg">
+                        <p>Cloudy photography</p>
+                    </div>
+
+                    <div class="created">
+                        <div class="person">
+                            <img src="assets/john.svg">
+                            <div>
+                                <p class="created1">Created by</p>
+                                <p class="john">John wick</p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <p class="created1">Current bid</p>
+                            <p class="john">5.83ETH</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bid">
+                        <button class="bid-button">
+                            <img src="assets/lock.svg">
+                            <p>Place Bid</p>
+                        </button>
+    
+                        <p class="view">View History</p>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="top">
+            <h3>Top Sellers</h3>
+            <div class="sellers">
+                <div>
+                    <img src="assets/1.svg">
+                </div>
+                <div>
+                    <p class="text">Darrell Steward</p>
+                    <p class="price">5.83ETH</p>
+                </div>
+
+                <div>
+                    <img src="assets/2.svg">
+                </div>
+                <div>
+                    <p class="text">Kathryn Murphy</p>
+                    <p class="price">25USDC</p>
+                </div>
+
+                <div>
+                    <img src="assets/3.svg">
+                </div>
+                <div>
+                    <p class="text">Jacob Jones</p>
+                    <p class="price">3.5MATIC</p>
+                </div>
+
+                <div>
+                    <img src="assets/4.svg">
+                </div>
+                <div>
+                    <p class="text">Farzah Sheriff</p>
+                    <p class="price">52USDC</p>
+                </div>
+                <div>
+                    <img src="assets/5.svg">
+                </div>
+                <div>
+                    <p class="text">Cody Fisher</p>
+                    <p class="price">20BITCOIN</p>
+                </div>
+            </div><br><br>
+
+            <div class="seller1">
+                <div>
+                    <img src="assets/6.svg">
+                </div>
+                <div class="text">
+                    <p class="text">Eleanor Pena</p>
+                    <p class="price">$100</p>
+                </div>
+
+                <div>
+                    <img src="assets/7.svg">
+                </div>
+                <div>
+                    <p class="text">Albert Flores</p>
+                    <p class="price">2.1ETH</p>
+                </div>
+
+                <div>
+                    <img src="assets/8.svg">
+                </div>
+                <div>
+                    <p class="text">Jenny Wilson</p>
+                    <p class="price">$70</p>
+                </div>
+
+                <div>
+                    <img src="assets/9.svg">
+                </div>
+                <div>
+                    <p class="text">Robert Fox</p>
+                    <p class="price">1.3ETH</p>
+                </div>
+                <div>
+                    <img src="assets/10.svg">
+                </div>
+                <div>
+                    <p class="text">Ralph Edwards</p>
+                    <p class="price">10USDT</p>
+                </div>
+            </div>
+            </div>
+           </section>  
+    
+    <section class="learn">
         <div>
-
-            <h3>Trending</h3>
-            <div>
-                <img src="assets/Group.svg">
-                <h5>Setup your wallet</h5>
-                <h6>Sign up into your dashboard using your socials or connect using your crpto wallet</h6>
-            </div>
-            <div>
-                <img src="assets/tabler_layout-collage.svg">
-                <h5>Create your collection</h5>
-                <h6>Create your amazing digital assets to sell and connect with other creators</h6>
-            </div>
-            <div>
-                <img src="assets/lucide_image.svg">
-                <h5>Add your assets</h5>
-                <h6>Upload your latest work of art in photography, videos and artworks/h6>
-            </div>
-            <div>
-                <img src="assets/gridicons_menus.svg">
-                <h5>List them for sale</h5>
-                <h6>Connect with buyers across Africa and receive payment in your local currency</h6>
-            </div>
+            <img src="assets/Frame 99.svg">
         </div>
     </section>
+
+    <section id="section">
+        <div class="comm">
+            <h3>Join Our Community</h3>
+            <p>Meet our Jaja Team, artists and collections for<br> platform updates, announcements and more</p>
+            <div id="join">
+                <button class="discord">Join us on discord</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+        <div class="footer1">
+            <h1>BIDOFA</h1>
+            <p>An exclusive Hub and Marketplace<br>
+            to exhibit various Digital assets</p>
+        </div>
+        <div class="footer2">
+            <p>Explore</p>
+            <p>Help center</p>
+            <p>Learn</p>
+            <p>Become a partner</p>
+        </div>
+        <div class="footer2">
+            <p>Blog</p>
+            <p>Bidofa token</p>
+            <p>Suggest feature</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="footer2">
+            <p>Follow us on</p>
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+        </div>
+
+        <div class="copyright">
+            <h5>Copyright 2022 Jaja, All rights reserved.</h5>
+            <p>Terms</p>
+            <p>Privacy policy</p>
+        </div>
+        
+    </footer>
 </body>
 </html>
